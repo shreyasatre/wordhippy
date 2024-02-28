@@ -38,12 +38,12 @@ def search_callback():
     dpg.configure_item(item="SynonymsLoading", show=False)
     dpg.configure_item(item="AntonymsLoading", show=False)
     dpg.focus_item("InputWord")
-
+# ---
 
 # Sets up DearPyGUI layout.
 def setup():
     dpg.create_context()
-    dpg.create_viewport(title='WordHippy', min_height=600, min_width=500, max_height=600, max_width=500, resizable=False)
+    dpg.create_viewport(title='WordHippy', min_height=580, min_width=500, max_height=580, max_width=500, resizable=False)
     dpg.setup_dearpygui()
 
     with dpg.window(label="WordHippy", tag="WordHippyPrimaryWindow"):
