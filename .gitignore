@@ -1,0 +1,8 @@
+# vscode
+.vscode 
+
+# virtual environment
+.venv
+
+.git-credentials
+config.ini
