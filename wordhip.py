@@ -22,6 +22,7 @@ def search_word(word):
 
     return synonyms, antonyms
 
+# Callback function for searching.
 def search_callback():
     dpg.set_value("SynonymsValues", "")
     dpg.set_value("AntonymsValues", "")
